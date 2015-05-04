@@ -237,7 +237,12 @@
   "make": {
     "homepage": "http://www.gnu.org/software/make/",
     "url": "http://ftp.gnu.org/gnu/make/make-4.1.tar.bz2",
-    "version": "4.1"
+    "version": "4.1",
+    "build": {
+      "configure-args": [
+        "--prefix=/usr"
+      ]
+    }
   },
   "mandb": {
     "homepage": "http://www.nongnu.org/man-db/",
@@ -299,8 +304,9 @@
     "url": "http://skarnet.org/software/s6/s6-2.1.3.0.tar.gz",
     "version": "2.1.3.0",
     "depends": [
-      "skalibs"
-    ]
+      "skalibs",
+      "execline"
+    ],
     "provides": [
       "init"
     ]
