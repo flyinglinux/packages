@@ -309,7 +309,12 @@
   "porg": {
     "homepage": "http://porg.sourceforge.net/",
     "url": "http://downloads.sourceforge.net/project/porg/porg-0.8.tar.gz",
-    "version": "0.8"
+    "version": "0.8",
+    "build": {
+      "configure-args": [
+        "--disable-grop"
+      ]
+    }
   },
   "procps": {
     "homepage": "http://sourceforge.net/projects/procps-ng",
