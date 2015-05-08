@@ -189,7 +189,10 @@
   "gmp": {
     "homepage": "http://www.gnu.org/software/gmp/",
     "url": "http://ftp.gnu.org/gnu//gmp/gmp-6.0.0a.tar.xz",
-    "version": "6.0.0a"
+    "version": "6.0.0a",
+    "depends": [
+      "gmp"
+    ]
   },
   "gperf": {
     "homepage": "http://www.gnu.org/software/gperf/",
@@ -273,7 +276,10 @@
   "mpc": {
     "homepage": "http://www.multiprecision.org/",
     "url": "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "depends": [
+      "mpfr"
+    ]
   },
   "mpfr": {
     "homepage": "http://www.mpfr.org/",
