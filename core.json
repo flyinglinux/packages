@@ -1,5 +1,5 @@
 {
-  "gcc": {
+  "gcc4.9": {
     "homepage": "http://gcc.gnu.org/",
     "url": "http://ftp.gnu.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2",
     "provides": [
@@ -8,6 +8,27 @@
       "go-compiler"
     ],
     "version": "4.9.2",
+    "depends": [
+      "mpfr",
+      "mpc",
+      "gmp"
+    ],
+    "build": {
+      "make-args": [
+        "bootstrap"
+      ],
+      "outside-source-dir": true
+    }
+  },
+  "gcc": {
+    "homepage": "http://gcc.gnu.org/",
+    "url": "https://ftp.gnu.org/gnu/gcc/gcc-5.1.0/gcc-5.1.0.tar.bz2",
+    "provides": [
+      "c-compiler",
+      "c++-compiler",
+      "go-compiler"
+    ],
+    "version": "5.1",
     "depends": [
       "mpfr",
       "mpc",
