@@ -1,5 +1,5 @@
 # packages
-Package files for Flying Linux for use with `foopkg` compatible packaging systems.
+Package files for Flying Linux for use with `soar` compatible packaging systems.
 
 ## Usage
-Put these in /etc/foopkg/rules.d (for foopkg.py at least)
+Put these in /etc/soar/rules.d (for soar.py at least)

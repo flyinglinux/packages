@@ -4,7 +4,7 @@ import glob
 import shutil
 import os
 
-INSTALL_DIR = '/etc/foopkg/rules.d'
+INSTALL_DIR = '/etc/soar/rules.d'
 
 if os.geteuid() != 0:
 	raise PermissionError('You forgot a sudo. Please use one.')
