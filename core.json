@@ -91,6 +91,11 @@
     "url": "http://ftp.gnu.org/gnu/bash/bash-4.3.30.tar.gz",
     "version": "4.3.30"
   },
+  "bash-completion": {
+    "homepage": "http://bash-completion.alioth.debian.org/",
+    "url": "http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2",
+    "version": "2.1"
+  },
   "bison": {
     "homepage": "http://www.gnu.org/software/bison/",
     "url": "http://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz",
